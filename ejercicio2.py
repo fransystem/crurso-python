@@ -15,6 +15,7 @@ def verificar_numero(numero):
 def main():
    
         numero = int(input("Ingrese un número: "))
+        print ("nueva linea")
         
         resultado = verificar_numero(numero)
         print(resultado)
